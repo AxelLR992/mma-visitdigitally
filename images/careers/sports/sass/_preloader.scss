@@ -1,0 +1,18 @@
+/*Preloader*/
+.loader {
+  background: #3c455d;
+  display: table;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+}
+
+.ball-beat {
+  backface-visibility: hidden;
+  display: table-cell;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
