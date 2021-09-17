@@ -188,15 +188,9 @@ include_once 'cp/app_includes/db_connect.php';
                         <div class="col-md-11 col-sm-11 col-xs-6">
                             <div class="menu text-right hidden-xs hidden-sm hidden-lg hidden-md">
                                 <ul>
-                                    <li><a href="#about">Company</a></li>
-                                    <li><a href="#how-it-works">How it works</a></li>
-                                    <li><a href="#services-type">Services</a></li>
-                                    <li><a href="#clients">Clients</a></li>
-                                    <li><a href="#partners">Partners</a></li>
-                                    <li><a href="#related">Related Sites</a></li>
-                                    <li><a href="#news">News</a></li>
-                                    <li><a href="#social">Social</a></li>
+                                    <li><a href="#upcoming-fights">Upcoming fights</a></li>
                                     <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#about">Company</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -217,15 +211,9 @@ include_once 'cp/app_includes/db_connect.php';
                         </a>
                         <div class="menu">
                             <ul>
-                                <li><a href="#about">Company</a></li>
-                                <li><a href="#how-it-works">How it works</a></li>
-                                <li><a href="#services-type">Services</a></li>
-                                <li><a href="#clients">Clients</a></li>
-                                <li><a href="#partners">Partners</a></li>
-                                <li><a href="#related">Related Sites</a></li>
-                                <li><a href="#news">News</a></li>
-                                <!--                                <li><a href="#social">Social</a></li>-->
+                                <li><a href="#upcoming-fights">Upcoming fights</a></li>
                                 <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">Company</a></li>
                             </ul>
                         </div>
                     </div>
@@ -278,7 +266,7 @@ include_once 'cp/app_includes/db_connect.php';
     </div>
 
     <!-- #upcoming-fights -->
-    <section id="services-type" class="event-type-section" style="padding-top: 130px;">
+    <section id="upcoming-fights" class="event-type-section" style="padding-top: 130px;">
         <div class="container">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Upcoming fights</h2>
@@ -379,11 +367,6 @@ include_once 'cp/app_includes/db_connect.php';
 
     <div class="flexslider">
         <br><br><br>
-        <ul class="slides">
-            <li>
-                <img src="images/socialdivider_english.jpg" alt="">
-            </li>
-        </ul>
 
         <div id="contact" class="section-cotent">
             <div class="container">
@@ -449,54 +432,325 @@ include_once 'cp/app_includes/db_connect.php';
     </div>
     <!-- /#contact -->
 
-    <div id="map_americas" class="section-cotent">
+    <div id="about" class="section-cotent">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-0 col-xs-0"></div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="map_panel">
-                        USA<br />
-                        Carlos Vassallo<br />
-                        carlos@visitdigitally.com<br />
-                        212 518 7543<br />
-                        <br />
-                        Facundo Rawson<br />
-                        facundo@visitdigitally.com<br />
-                        <br />
-                        MEXICO<br />
-                        Lourdes Padilla<br />
-                        lourdes@visitdigitally.com<br />
-                        <br />
-                        COLOMBIA<br />
-                        Patricia Rodriguez<br />
-                        patricia@visitdigitally.com<br />
-                        <br />
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="map_panel">
-                        BRAZIL<br />
-                        Felipe Machado<br />
-                        felipe@visitdigitally.com<br />
-                        <br />
-                        ARGENTINA<br />
-                        Ricardo Vassallo<br />
-                        ricardo@visitdigitally.com<br />
-                        <br />
-                        URUGUAY<br />
-                        Nicolás Pereira<br />
-                        nicolas@visitdigitally.com<br />
-                        <br />
-                        CHILE<br />
-                        Sergio Grinbaum<br />
-                        sergio@visitdigitally.com<br />
-                        <br />
-                    </div>
-                </div>
+            <div class="title-section text-center">
+                <h2>Company</h2>
+                <span></span>
             </div>
+            <!-- /.title-section -->
+            <div class="row">
+                <div class="col-md-9">
+                    <h4 class="widget-title">VisitDigitally PRODUCES INTERACTIVE LIVE AND VIDEO CAMPUS TOURS</h4>
+                    <p class="area_text">
+                        Visit Digitally is a recognized leader in the OTT TV (Over-the-top TV), OVP
+                        (Online Video Platform), EdVP (Education Video Platform), and EVP (Enterprise Video Platform) markets.
+                        <br />
+                        <br />
+                        Our multicultural team develops programs using state of the art technology. We focus on creating an intelligent and unique user experience while delivering significant ROI.
+
+                    </p>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-3 our-skills" style="text-align: center">
+                    <h4 class="widget-title"><span style="color: #808080">Our Nature</span></h4>
+                    <ul class="progess-bars">
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Technologically driven</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Digitally born</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Social at the core</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Internationally integrated</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Humanly obsessed</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.col-md-3 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="our-team">
+
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/member-1.jpg" alt="Carlos Vassallo Leadership">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/carlosvassallo" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/carlosvassallo" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Carlos<br />
+                                    Vassallo </h5>
+                                <span>COO - Co-Founder</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_smith.jpg" alt="Amanda Smith COO">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/amandapilarsmith/" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/asmithcaterers" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Amanda<br />
+                                    Smith</h5>
+                                <span>COO - Co-Founder</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_francesco.jpg" alt="Francesco Andreoli Ai">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/francescoandreoli/" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/francescoswiss" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Francesco<br />
+                                    Andreoli</h5>
+                                <span>Ai Chief</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_dimonte.jpg" alt="Eric">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://uy.linkedin.com/in/ericdimonte" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/ericdimonte" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Eric<br />
+                                    Di Monte </h5>
+                                <span>CPO</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/marcelo.jpg" alt="Marcelo">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://ar.linkedin.com/in/marcelo-oscar-scarano-b9460632/en" class="fa fa-linkedin" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Marcelo<br />
+                                    Scarano</h5>
+                                <span>CTO</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_grinbaum.jpg" alt="Sergio">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://ar.linkedin.com/in/sergiogrinbaum" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/sgrinbaum" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Sergio <br />
+                                    Grinbaum</h5>
+                                <span>International</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                </div>
+                <!-- /.our-team -->
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+                <div class="our-team" style="margin-top: 40px">
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_lourdespadilla.jpg" alt="Lourdes">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/lourdespadillatanco/" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/lolukapadilla" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Lourdes<br />
+                                    Padilla</h5>
+                                <span>Sales</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_bukin.jpg" alt="Martin">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/martin-isaak-683764182" class="fa fa-linkedin" target="_blank"></a></li>
+
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Martin<br />
+                                    Isaak</h5>
+                                <span>Content</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_schapsis.jpg" alt="Olga">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/olga-block-913a90103" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Olga<br />
+                                    Block</h5>
+                                <span>Strategy</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_facundo.jpg" alt="Facundo">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/facundo-rawson-871281" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/frawson" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Facundo <br />
+                                    Rawson</h5>
+                                <span>Biz Development</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_holguin.jpg" alt="Eder">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://www.linkedin.com/in/ederholguin" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/ederman1" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Eder<br />
+                                    Holguin</h5>
+                                <span>Marketing</span>
+                            </div>
+                        </div>
+                        <!-- /.team-member -->
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/ph_machado.jpg" alt="Felipe">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="https://br.linkedin.com/in/felipemachado10" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://www.twitter.com/felipemachado" class="fa fa-twitter" target="_blank"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Felipe<br />
+                                    Machado</h5>
+                                <span>Operations</span>
+
+
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- /.team-member -->
+
+                    </div>
+                </div>
+
+                <!-- /.our-team -->
+            </div>
+
         </div>
+        <!-- /.container -->
     </div>
-    <!-- /#map_americas -->
+    <!-- /#about -->
+
 
     <!-- Modal -->
     <div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -529,51 +783,49 @@ include_once 'cp/app_includes/db_connect.php';
     <div class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-8 col-xs-12">
+                <div class="col-12 col-md-6">
+                    <img src="images/logo_white.png" alt="Logo" />
                     <p>
-                        <img src="images/logo_white.png" /><br />
-                        Copyright &copy; 2020 VisitDigitally.com&nbsp;|&nbsp;<a data-toggle="modal"
-                            data-target="#modal_login">Privacy Policy & GDPR</a><br /><a
-                            href="https://www.visitdigitally.com/apps.pdf">Apps & Software Integration List</a>
-                        <br />
-                        <a href="https://www.visitdigitally.com/video/home_planet_publish.mp4">Video Sample</a>
-                        <br><br><a href="https://www.visitdigitally.com/spa/index.php">Español&nbsp;|&nbsp;<a
-                                href="https://www.visitdigitally.com/por/index.php">Portuguese</a><br />
-                            <br />
-                            <span>
-                                <a href="#contact">
-                                    <!-- <img src="./images/boton-ingles.png" alt="Book Demo" style="margin-top: 0px; margin-bottom: 0px;" /> -->
-                                    <button class="btn-tickets">Buy tickets</button>
-                                </a>&nbsp;&nbsp;</span><br /><br />
-                                <a href="https://www.linkedin.com/company/66737070" target="_blank"><i
-                                    class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;&nbsp;<a
-                                href="https://www.facebook.com/visitdigitally" target="_blank"><i
-                                    class="fa fa-facebook-square fa-3x"></i></a>&nbsp;&nbsp;&nbsp;<a
-                                href="https://twitter.com/visitdigitally" target="_blank"><i
-                                    class="fa fa-twitter-square fa-3x"></i></a>&nbsp;&nbsp;&nbsp;<a
-                                href="https://instagram.com/visitdigitally" target="_blank"><i
-                                    class="fa fa-instagram fa-3x"></i></a>
-                            </i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCyKvkfiNp2l0wmws5qzBMSQ"
-                            target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>&nbsp;</i></a><br>
-                        VisitDigitally.com recommends CHROME - <a href="https://www.google.com/chrome">Download</a>
+                        Copyright &copy; <?php echo date("Y"); ?> VisitDigitally.com <br/>
                     </p>
                 </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="go-top">
-                        <a href="#" id="go-top">
-                            <i class="fa fa-angle-up"></i>
-                            Back to Top
-                        </a>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="footer-div">
+                                <strong>MMA</strong><br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Careers</a><br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Store</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="footer-div">
+                                <strong>Social Media</strong><br/>
+                                <a target="_blank" href="https://www.facebook.com/visitdigitally">Facebook</a> <br/>
+                                <a target="_blank" href="https://instagram.com/visitdigitally">Instagram</a> <br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Tik Tok</a> <br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Twitch</a> <br/>
+                                <a target="_blank" href="https://twitter.com/visitdigitally">Twitter</a> <br/>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCyKvkfiNp2l0wmws5qzBMSQ">YouTube</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="footer-div">
+                                <strong>Help</strong><br/>
+                                <a target="_blank" href="https://edition.cnn.com/">FAQ</a>
+                            </div>
+                            <div class="footer-div">
+                                <strong>Legal</strong> <br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Terms</a> <br/>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Privacy Policy</a> <br/>
+                                <a target="_blank" href="https://edition.cnn.com/">Ad Choices</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- /.col-md-6 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </div>
-    <!-- /.site-footer -->
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
