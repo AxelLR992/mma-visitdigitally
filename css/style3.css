@@ -9,6 +9,10 @@ v2.0 | 20110126
 License: none (public domain)
 */
 
+body {
+    overflow-x: hidden;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -904,6 +908,15 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
     height: 100%;
 }
 
+.upcoming-fight {
+    padding: 10px 20px !important;
+}
+
+@media (min-width: 992px){
+    .upcoming-fight {
+        padding: 15px !important;
+    }
+}
 
 
 @media (max-width: 767px) {
@@ -1204,6 +1217,7 @@ margin: 20px auto;
     text-transform: uppercase;
     color: white;
     font-size: 65px;
+    line-height: normal;
     padding: 20px;
 }
 
