@@ -196,31 +196,66 @@ include_once 'cp/app_includes/db_connect.php';
                         </div>
                     </div>
                     <div class="responsive-menu text-right visible-xs visible-sm visible-lg visible-md">
-                        <div>
-                            <a href="#"
-                                class="toggle-menu fa fa-bars">
-                            </a>
-                            <div class="menu">
-                                <ul>
-                                    <li><a href="#upcoming-fights">Upcoming fights</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                    <li><a href="#about">Company</a></li>
-                                </ul>
+                        <!-- Mobile only menu -->
+                        <div class="mobile-only">
+                            <div>
+                                <a href="#"
+                                    class="toggle-menu fa fa-bars">
+                                </a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="#upcoming-fights">Upcoming fights</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#about">Company</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <a href="spa/index.php">
+                                    <img src="banderas/espana.jpg" style="margin-top: -8px; border: 0" />
+                                </a>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <span class="demo_button">
+                                    <a href="#contact">
+                                        <button class="btn-tickets">Buy tickets</button>
+                                        <button class="btn-tickets btn-live">Watch live</button>
+                                    </a>
+                                </span>
                             </div>
                         </div>
-                        <div style="margin-top: 15px;">
-                            <a href="spa/index.php">
-                                <img src="banderas/espana.jpg" style="margin-top: -8px; border: 0" />
-                            </a>
-                        </div>
-                        <div style="margin-top: 15px;">
-                            <span class="demo_button">
-                                <a href="#contact">
-                                    <button class="btn-tickets">Buy tickets</button>
-                                    <button class="btn-tickets btn-live">Watch live</button>
+                        <!-- /Mobile only menu -->
+
+                        <!-- Desktop only menu -->
+                        <div class="desktop-only">
+                            <div class="inline" style="margin-right: 15px;">
+                                <span class="demo_button">
+                                    <a href="#contact">
+                                        <button class="btn-tickets">Buy tickets</button>
+                                        <button class="btn-tickets btn-live">Watch live</button>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="inline" style="margin-right: 15px;">
+                                <a href="spa/index.php">
+                                    <img src="banderas/espana.jpg" style="margin-top: -8px; border: 0" />
                                 </a>
-                            </span>
+                            </div>
+                            <div class="inline">
+                                <a href="#"
+                                    class="toggle-menu fa fa-bars">
+                                </a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="#upcoming-fights">Upcoming fights</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#about">Company</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+                        <!-- /Desktop only menu -->
+
                     </div>
                 </div>
             </div>
@@ -354,7 +389,7 @@ include_once 'cp/app_includes/db_connect.php';
         <h2>Tickets on sale</h2>
         <h5>Thrilling championship bouts in New York City</h5>
 
-        <button>Get yours here</button>
+        <a href="https://edition.cnn.com/">Get yours here</a>
     </section>
     <!-- /#tickets-on-sale -->
 
@@ -654,8 +689,8 @@ include_once 'cp/app_includes/db_connect.php';
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>Extreme Cage Fighting</strong><br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Careers</a><br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Store</a>
+                                <a style="margin-right: 20px;" target="_blank" href="https://edition.cnn.com/">Shop</a>
+                                <a href="spa/index.php">Español</a>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
@@ -671,9 +706,8 @@ include_once 'cp/app_includes/db_connect.php';
                                 <strong>Help</strong><br/>
                                 <a target="_blank" href="https://edition.cnn.com/">FAQ</a>
                             </div>
-                            <div class="footer-div">
+                            <div class="footer-div" style="margin-top: 15px;">
                                 <strong>Legal</strong> <br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Terms</a> <br/>
                                 <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Privacy Policy</a> <br/>
                                 </div>
                         </div>

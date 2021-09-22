@@ -1228,7 +1228,7 @@ margin: 20px auto;
     text-transform: uppercase;
 }
 
-.sales-section button {
+.sales-section a {
     margin-top: 50px;
     border: none;
     background-color: white;
@@ -1236,6 +1236,7 @@ margin: 20px auto;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+    color: black;
 }
 
 strong {
@@ -1246,9 +1247,31 @@ strong {
     margin-top: 20px;
 }
 
+.desktop-only {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+
 @media (min-width: 992px) {
+    .mobile-only {
+        display: none;
+    }
+
     .footer-div {
         margin-top: 0;
+    }
+
+    .mobile-inline-desktop-block {
+        display: inline;
+        margin-left: 15px;
+    }
+
+    .desktop-only {
+        display: block;
     }
 }
 
