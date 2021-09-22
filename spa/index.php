@@ -196,26 +196,66 @@ include_once '../cp/app_includes/db_connect.php';
                         </div>
                     </div>
                     <div class="responsive-menu text-right visible-xs visible-sm visible-lg visible-md">
-                        <span class="demo_button">
-                            <a href="#contact">
-                                <!-- <img src="./../images/boton-ingles.png" alt="Book Demo" style="margin-top: -11px"> -->
-                                <button class="btn-tickets">Comprar boletos</button>
-                                <button class="btn-tickets btn-live">Mirar en vivo</button>
-                            </a>&nbsp;&nbsp;
-                        </span>
-                        <a href="../index.php">
-                            <img src="../banderas/eu.jpg" style="margin-top: -8px; border: 0" />
-                        </a>&nbsp;&nbsp;&nbsp;
-                        <a href="#"
-                            class="toggle-menu fa fa-bars">
-                        </a>
-                        <div class="menu">
-                            <ul>
-                                <li><a href="#upcoming-fights">Upcoming fights</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                <li><a href="#about">Company</a></li>
-                            </ul>
+                        <!-- Mobile only menu -->
+                        <div class="mobile-only">
+                            <div>
+                                <a href="#"
+                                    class="toggle-menu fa fa-bars">
+                                </a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="#upcoming-fights">Próximas peleas</a></li>
+                                        <li><a href="#contact">Contacto</a></li>
+                                        <li><a href="#about">Empresa</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <a href="../index.php">
+                                    <img src="../banderas/eu.jpg" style="margin-top: -8px; border: 0" />
+                                </a>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <span class="demo_button">
+                                    <a href="#contact">
+                                        <button class="btn-tickets">Comprar boletos</button>
+                                        <button class="btn-tickets btn-live">Mirar en vivo</button>
+                                    </a>
+                                </span>
+                            </div>
                         </div>
+                        <!-- /Mobile only menu -->
+
+                        <!-- Desktop only menu -->
+                        <div class="desktop-only">
+                            <div class="inline" style="margin-right: 15px;">
+                                <span class="demo_button">
+                                    <a href="#contact">
+                                        <button class="btn-tickets">Comprar boletos</button>
+                                        <button class="btn-tickets btn-live">Mirar en vivo</button>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="inline" style="margin-right: 15px;">
+                                <a href="../index.php">
+                                    <img src="../banderas/eu.jpg" style="margin-top: -8px; border: 0" />
+                                </a>
+                            </div>
+                            <div class="inline">
+                                <a href="#"
+                                    class="toggle-menu fa fa-bars">
+                                </a>
+                                <div class="menu">
+                                    <ul>
+                                        <li><a href="#upcoming-fights">Próximas peleas</a></li>
+                                        <li><a href="#contact">Contacto</a></li>
+                                        <li><a href="#about">Empresa</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Desktop only menu -->
+
                     </div>
                 </div>
             </div>
@@ -232,7 +272,7 @@ include_once '../cp/app_includes/db_connect.php';
                     </h3>
                     <h2>
                         <br /><br /><br />
-                        Tag line here
+                        Hora de ponerse extremos
                         <br />
 
                     </h2>
@@ -261,82 +301,70 @@ include_once '../cp/app_includes/db_connect.php';
             </div>
         </div>
         <video loop muted autoplay class="tall" style="width: 100%; height: auto;">
-            <source src="../video/fight_home_video.mp4" type="video/mp4">
+            <source src="../video/october9.mp4" type="video/mp4">
         </video>
     </div>
 
     <!-- #upcoming-fights -->
     <section id="upcoming-fights" class="event-type-section" style="padding-top: 130px;">
-        <div class="container">
+        <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Próximas peleas</h2>
                 Míralas en vivo
                 <span></span>
             </div>
-            <div class="row justify-content-center no-gutters stagger-tween">
+            <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
                     <?php
                     $upcomingFights = array(
                         array(
                             "title" => "Fight 1",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 1"
                         ),
                         array(
                             "title" => "Fight 2",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 2."
                         ),
                         array(
                             "title" => "Fight 3",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 3."
                         ),
                         array(
                             "title" => "Fight 4",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 4"
                         ),
                         array(
                             "title" => "Fight 5",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 5"
                         ),
                         array(
                             "title" => "Fight 6",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 6"
                         ),
                         array(
                             "title" => "Fight 7",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 7"
                         ),
                         array(
                             "title" => "Fight 8",
                             "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Increase your success rate. Show all offerings from academic presentations to admission
-                            and financial aid, and life inside and outside the classroom. Help your audience to
-                            explore campus life, meet students & discover your hands on approach to education."
+                            "description" => "Fight 8"
                         ),
-                        
+                        array(
+                            "title" => "Fight 9",
+                            "imgPath" => "../img/events/ev-tours.jpg",
+                            "description" => "Fight 9"
+                        ),
                     );
                     
                     foreach ($upcomingFights as $fight){ ?>
-                        <div class="col-md-3 p-2 stagger-tween-item">
+                        <div class="col-md-4 p-2 stagger-tween-item upcoming-fight">
                             <div class="reveal-container">
                                 <img class="img-responsive" src="<?php echo $fight['imgPath'] ?>" alt="">
                                 <h5 class="text-white text-uppercase text-shadow p-3 px-lg-4"
@@ -359,9 +387,9 @@ include_once '../cp/app_includes/db_connect.php';
     <!-- #tickets-on-sale -->
     <section class="sales-section">
         <h2>Boletos a la venta</h2>
-        <h5>Dos emocionantes campeonatos mundiales superan UDC 267 en Abu Dhabi</h5>
+        <h5>Emocionantes combates por el campeonato en la ciudad de Nueva York</h5>
 
-        <button>Obtén los tuyos aquí</button>
+        <a href="https://edition.cnn.com/">Obtén los tuyos aquí</a>
     </section>
     <!-- /#tickets-on-sale -->
 
@@ -377,7 +405,7 @@ include_once '../cp/app_includes/db_connect.php';
                 <!-- /.title-section -->
                 <div class="row">
                     <div class="col-md-7 col-sm-6">
-                        <h4 class="widget-title">Reserve una demostración gratuita - Envíenos un mensaje</h4>
+                        <h4 class="widget-title">Envíenos un mensaje</h4>
                         <div class="contact-form">
                             <form id="contact_form" enctype="multipart/form-data" method="post">
                                 <p class="full-row">
@@ -398,9 +426,7 @@ include_once '../cp/app_includes/db_connect.php';
                                 </p>
                                 <div class="g-recaptcha" data-sitekey="6LfjUOIUAAAAAAHdxw_Dnyh3H9Vh8kVSClTn8xLY"></div>
                                 <div id="mail-status"></div>
-                                <button class="btn btn-primary" type="Submit" id="send-message" style="clear:both;">
-                                    Enviar
-                                </button>
+                                <button class="btn btn-primary" type="Submit" id="send-message" style="clear:both;">Enviar</button>
 
                             </form>
                             <div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
@@ -436,24 +462,22 @@ include_once '../cp/app_includes/db_connect.php';
     <div id="about" class="section-cotent">
         <div class="container">
             <div class="title-section text-center">
-                <h2>Company</h2>
+                <h2>La empresa</h2>
                 <span></span>
             </div>
             <!-- /.title-section -->
             <div class="row">
                 <div class="col-md-9">
-                    <h4 class="widget-title">ISITDIGITALLY PRODUCE INTERACTIVE LIVE Y VIDEO CAMPUS TOURS</h4>
+                    <h4 class="widget-title">VISITDIGITALLY PRODUCE INTERACTIVE LIVE Y VIDEO CAMPUS TOURS</h4>
                     <p class="area_text">
                     Visit Digitally es un líder reconocido en OTT TV (Over-the-top TV), OVP (Online Video Platform), EdVP (Education Video Platform), y en el Mercado de EVP (Enterprise Video Platform).
-                        <br />
-                        <br />
-                        Nuestro equipo multicultural desarrolla programas y aplicaciones usando tecnologías de última generación. Nuestra concentración es crear experiencia únicas de usuarios mientras que le generamos un significante retorno de su inversión.
-
+                    <br/> <br/>
+                    Nuestro equipo multicultural desarrolla programas y aplicaciones usando tecnologías de última generación. Nuestra concentración es crear experiencia únicas de usuarios mientras que le generamos un significante retorno de su inversión.
                     </p>
                 </div>
                 <!-- /.col-md-3 -->
                 <div class="col-md-3 our-skills" style="text-align: center">
-                    <h4 class="widget-title"><span style="color: #808080">Nuestra naturaleza</span></h4>
+                    <h4 class="widget-title"><span style="color: #808080">Our Nature</span></h4>
                     <ul class="progess-bars">
                         <li>
                             <div class="progress">
@@ -551,18 +575,18 @@ include_once '../cp/app_includes/db_connect.php';
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="../images/team/ph_dimonte.jpg" alt="Eric">
+                                <img src="../images/team/ph_facundo.jpg" alt="Facundo">
                                 <div class="overlay">
                                     <ul class="social">
-                                        <li><a href="https://uy.linkedin.com/in/ericdimonte" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://twitter.com/ericdimonte" class="fa fa-twitter" target="_blank"></a></li>
+                                        <li><a href="https://www.linkedin.com/in/facundo-rawson-871281" class="fa fa-linkedin" target="_blank"></a></li>
+                                        <li><a href="https://twitter.com/frawson" class="fa fa-twitter" target="_blank"></a></li>
                                     </ul>
                                 </div>
                                 <!-- /.overlay -->
                             </div>
                             <div class="inner-content">
-                                <h5>Eric<br />
-                                    Di Monte </h5>
+                                <h5>Facundo<br />
+                                    Rawson</h5>
                                 <span>Operaciones</span>
                             </div>
                         </div>
@@ -590,19 +614,19 @@ include_once '../cp/app_includes/db_connect.php';
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="../images/team/ph_grinbaum.jpg" alt="Sergio">
+                                <img src="../images/team/ph_bukin.jpg" alt="Martin">
                                 <div class="overlay">
                                     <ul class="social">
-                                        <li><a href="https://ar.linkedin.com/in/sergiogrinbaum" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://twitter.com/sgrinbaum" class="fa fa-twitter" target="_blank"></a></li>
+                                        <li><a href="https://www.linkedin.com/in/martin-isaak-683764182" class="fa fa-linkedin" target="_blank"></a></li>
+                                        
                                     </ul>
                                 </div>
                                 <!-- /.overlay -->
                             </div>
                             <div class="inner-content">
-                                <h5>Sergio <br />
-                                    Grinbaum</h5>
-                                <span>Operaciones</span>
+                                <h5>Martin <br />
+                                    Isaak</h5>
+                                <span>Creatividad</span>
                             </div>
                         </div>
                         <!-- /.team-member -->
@@ -612,139 +636,6 @@ include_once '../cp/app_includes/db_connect.php';
             </div>
             <!-- /.row -->
 
-            <div class="row">
-                <div class="our-team" style="margin-top: 40px">
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_lourdespadilla.jpg" alt="Lourdes">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/in/lourdespadillatanco/" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://twitter.com/lolukapadilla" class="fa fa-twitter" target="_blank"></a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Lourdes<br />
-                                    Padilla</h5>
-                                <span>Ventas</span>
-                            </div>
-                        </div>
-                        <!-- /.team-member -->
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_bukin.jpg" alt="Martin">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/in/martin-isaak-683764182" class="fa fa-linkedin" target="_blank"></a></li>
-
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Martin<br />
-                                    Isaak</h5>
-                                <span>Creatividad</span>
-                            </div>
-                        </div>
-                        <!-- /.team-member -->
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_schapsis.jpg" alt="Olga">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/in/olga-block-913a90103" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Olga<br />
-                                    Block</h5>
-                                <span>Estrategia</span>
-                            </div>
-                        </div>
-                        <!-- /.team-member -->
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_facundo.jpg" alt="Facundo">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/in/facundo-rawson-871281" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://twitter.com/frawson" class="fa fa-twitter" target="_blank"></a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Facundo <br />
-                                    Rawson</h5>
-                                <span>Nuevos negocios</span>
-                            </div>
-                        </div>
-                        <!-- /.team-member -->
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_holguin.jpg" alt="Eder">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://www.linkedin.com/in/ederholguin" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://twitter.com/ederman1" class="fa fa-twitter" target="_blank"></a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Eder<br />
-                                    Holguin</h5>
-                                <span>Mercadeo</span>
-                            </div>
-                        </div>
-                        <!-- /.team-member -->
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="../images/team/ph_machado.jpg" alt="Felipe">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="https://br.linkedin.com/in/felipemachado10" class="fa fa-linkedin" target="_blank"></a></li>
-                                        <li><a href="https://www.twitter.com/felipemachado" class="fa fa-twitter" target="_blank"></a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Felipe<br />
-                                    Machado</h5>
-                                <span>Operaciones</span>
-
-
-
-
-                            </div>
-
-                        </div>
-
-                        <!-- /.team-member -->
-
-                    </div>
-                </div>
-
-                <!-- /.our-team -->
-            </div>
 
         </div>
         <!-- /.container -->
@@ -786,7 +677,7 @@ include_once '../cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="../images/logo_white.png" alt="Logo" />
                     <p>
-                        Copyright &copy; <?php echo date("Y"); ?> VisitDigitally.com <br/>
+                        Copyright &copy; <?php echo date("Y"); ?> mma.VisitDigitally.com <br/>
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -794,19 +685,16 @@ include_once '../cp/app_includes/db_connect.php';
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>MMA</strong><br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Empleo</a><br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Tienda</a>
+                                <a style="margin-right: 20px;" target="_blank" href="https://edition.cnn.com/">Tienda</a>
+                                <a href="../index.php">English</a>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>Redes sociales</strong><br/>
-                                <a target="_blank" href="https://www.facebook.com/visitdigitally">Facebook</a> <br/>
-                                <a target="_blank" href="https://instagram.com/visitdigitally">Instagram</a> <br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Tik Tok</a> <br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Twitch</a> <br/>
-                                <a target="_blank" href="https://twitter.com/visitdigitally">Twitter</a> <br/>
-                                <a target="_blank" href="https://www.youtube.com/channel/UCyKvkfiNp2l0wmws5qzBMSQ">YouTube</a>
+                                <a target="_blank" href="https://www.facebook.com/ECFMMAGYM/">Facebook</a> <br/>
+                                <a target="_blank" href="https://www.instagram.com/p/CTpL4oGL1e9/">Instagram</a> <br/>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCQvvzEX51uHeJ3t37Olr9xw">YouTube</a>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
@@ -814,12 +702,10 @@ include_once '../cp/app_includes/db_connect.php';
                                 <strong>Ayuda</strong><br/>
                                 <a target="_blank" href="https://edition.cnn.com/">FAQ</a>
                             </div>
-                            <div class="footer-div">
+                            <div class="footer-div" style="margin-top: 15px;">
                                 <strong>Legal</strong> <br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Términos</a> <br/>
-                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Política de privacidd</a> <br/>
-                                <a target="_blank" href="https://edition.cnn.com/">Selección de anuncios</a>
-                            </div>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Política de privacidad</a> <br/>
+                                </div>
                         </div>
                     </div>
                 </div>
