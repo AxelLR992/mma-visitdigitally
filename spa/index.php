@@ -219,7 +219,7 @@ include_once '../cp/app_includes/db_connect.php';
                                 <span class="demo_button">
                                     <a href="#contact">
                                         <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
-                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Mirar en vivo</a>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -232,7 +232,7 @@ include_once '../cp/app_includes/db_connect.php';
                                 <span class="demo_button">
                                     <a href="#contact">
                                         <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
-                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Mirar en vivo</a>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -421,7 +421,7 @@ include_once '../cp/app_includes/db_connect.php';
         <h2>Boletos a la venta</h2>
         <h5>Emocionantes combates por el campeonato en Queens-Nueva York</h5>
 
-        <a href="https://edition.cnn.com/">Obtén los tuyos aquí</a>
+        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640">Obtén los tuyos aquí</a>
     </section>
     <!-- /#tickets-on-sale -->
 
@@ -711,7 +711,7 @@ include_once '../cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="../images/logo_white.png" alt="Logo" />
                     <p>
-                        Copyright &copy; <?php echo date("Y"); ?> <br>mma.VisitDigitally.com <br/>extremecagefightingnyc.com<br>
+                        Copyright &copy; <?php echo date("Y"); ?> <br>mma.VisitDigitally.com <br/>visitdigitally.com<br>extremecagefightingnyc.com<br>
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
