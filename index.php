@@ -12,7 +12,7 @@ include_once 'cp/app_includes/db_connect.php';
 <!--<![endif]-->
 
 <head>
-    <title>Visit Digitally | Hello!</title>
+    <title>MMA Visit Digitally | Hello!</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords"
         content="virtual live tours, marketing, technology, advertising, AI, IOT, Blockchain, Cloud applications" />
@@ -218,8 +218,8 @@ include_once 'cp/app_includes/db_connect.php';
                             <div style="margin-top: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <button class="btn-tickets">Buy tickets</button>
-                                        <button class="btn-tickets btn-live">Watch live</button>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Buy tickets</a>
+                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Watch live</a>
                                     </a>
                                 </span>
                             </div>
@@ -231,8 +231,8 @@ include_once 'cp/app_includes/db_connect.php';
                             <div class="inline" style="margin-right: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <button class="btn-tickets">Buy tickets</button>
-                                        <button class="btn-tickets btn-live">Watch live</button>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Buy tickets</a>
+                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Watch live</a>
                                     </a>
                                 </span>
                             </div>
@@ -272,7 +272,8 @@ include_once 'cp/app_includes/db_connect.php';
                     </h3>
                     <h2>
                         <br /><br /><br />
-                        Time To Get Extreme
+                        Time To Get Extreme!<br>
+                        Watch it Live
                         <br />
 
                     </h2>
@@ -310,7 +311,9 @@ include_once 'cp/app_includes/db_connect.php';
         <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Upcoming fights</h2>
-                Watch them live
+                Watch them live<br>
+                Saturday, October 9th<br>
+                4PM - 10PM EST <br>New York
                 <span></span>
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
@@ -318,48 +321,66 @@ include_once 'cp/app_includes/db_connect.php';
                     $upcomingFights = array(
                         array(
                             "title" => "Fight 1",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 1"
+                            "imgPath" => "img/events/fight1.jpg",
+                            "description" => "This is fight 1",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/onedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 2",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 2."
+                            "imgPath" => "img/events/fight2.jpg",
+                            "description" => "This is fight 2",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/twodetail.pdf"
                         ),
                         array(
                             "title" => "Fight 3",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 3."
+                            "imgPath" => "img/events/fight3.jpg",
+                            "description" => "This is fight 3",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/threedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 4",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 4"
+                            "imgPath" => "img/events/fight4.jpg",
+                            "description" => "This is fight 4",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/fourdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 5",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 5"
+                            "imgPath" => "img/events/fight5.jpg",
+                            "description" => "This is fight 5",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/fivedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 6",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 6"
+                            "imgPath" => "img/events/fight6.jpg",
+                            "description" => "This is fight 6",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/sixdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 7",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 7"
+                            "imgPath" => "img/events/fight7.jpg",
+                            "description" => "This is fight 7",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/sevendetail.pdf"
                         ),
                         array(
                             "title" => "Fight 8",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 8"
+                            "imgPath" => "img/events/fight8.jpg",
+                            "description" => "This is fight 8",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/eightdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 9",
-                            "imgPath" => "img/events/ev-tours.jpg",
-                            "description" => "Fight 9"
+                            "imgPath" => "img/events/fight9.jpg",
+                            "description" => "This is fight 9",
+                            "subtitle" => "Tale of the tape",
+                            "subtitle-link" => "fight/ninedetail.pdf"
                         ),
                     );
                     
@@ -372,8 +393,18 @@ include_once 'cp/app_includes/db_connect.php';
                                 <div
                                     class="px-3 py-2 p-md-3 px-lg-4 py-lg-4 d-flex flex-row align-items-center reveal-subcontainer">
                                     <div class="reveal-content">
-                                        <br><span style="color: #55cbfc; font-weight: bold"><?php echo $fight['title'] ?></span></br>
-                                        <?php echo $fight['description'] ?>
+                                        <div style="color: #55cbfc; font-weight: bold">
+                                            <?php echo $fight['title'] ?>
+                                        </div>
+                                        <div style="margin-top: 10px;">
+                                            <?php echo $fight['description'] ?>
+                                        </div>
+
+                                        <div style="margin-top: 20px;">
+                                            <a href="<?php echo $fight['subtitle-link'] ?>">
+                                                <?php echo $fight['subtitle'] ?>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -387,9 +418,9 @@ include_once 'cp/app_includes/db_connect.php';
     <!-- #tickets-on-sale -->
     <section class="sales-section">
         <h2>Tickets on sale</h2>
-        <h5>Thrilling championship bouts in New York City</h5>
+        <h5>Thrilling championship bouts in Queens-New York</h5>
 
-        <a href="https://edition.cnn.com/">Get yours here</a>
+        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640">Get yours here</a>
     </section>
     <!-- /#tickets-on-sale -->
 
@@ -474,6 +505,9 @@ include_once 'cp/app_includes/db_connect.php';
                         Visit Digitally is a recognized leader in the OTT TV (Over-the-top TV), OVP
                         (Online Video Platform), EdVP (Education Video Platform), and EVP (Enterprise Video Platform) markets.
                         <br />
+                        <br />
+                         In Partnership with Extreme Cage Fighting, we streaming live Brazilian Jiu Jitsu, Mixed Martial Arts, Muay Thai and Wrestling.
+                         <br />
                         <br />
                         Our multicultural team develops programs using state of the art technology. We focus on creating an unique user experience using the latest streaming technology.
 
@@ -681,7 +715,7 @@ include_once 'cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="images/logo_white.png" alt="Logo" />
                     <p>
-                        Copyright &copy; <?php echo date("Y"); ?> mma.VisitDigitally.com <br/>
+                        Copyright &copy; <?php echo date("Y"); ?> <br>mma.VisitDigitally.com <br/>visitdigitally.com<br>extremecagefightingnyc.com<br>
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -689,7 +723,6 @@ include_once 'cp/app_includes/db_connect.php';
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>Extreme Cage Fighting</strong><br/>
-                                <a style="margin-right: 20px;" target="_blank" href="https://edition.cnn.com/">Shop</a>
                                 <a href="spa/index.php">Español</a>
                             </div>
                         </div>
@@ -709,6 +742,8 @@ include_once 'cp/app_includes/db_connect.php';
                             <div class="footer-div" style="margin-top: 15px;">
                                 <strong>Legal</strong> <br/>
                                 <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Privacy Policy</a> <br/>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Terms</a> <br/>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">GDPR</a> <br/>
                                 </div>
                         </div>
                     </div>
