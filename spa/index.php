@@ -12,7 +12,7 @@ include_once '../cp/app_includes/db_connect.php';
 <!--<![endif]-->
 
 <head>
-    <title>Visit Digitally | Hello!</title>
+    <title>MMA Visit Digitally | Hola!</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords"
         content="virtual live tours, marketing, technology, advertising, AI, IOT, Blockchain, Cloud applications" />
@@ -218,8 +218,8 @@ include_once '../cp/app_includes/db_connect.php';
                             <div style="margin-top: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <button class="btn-tickets">Comprar boletos</button>
-                                        <button class="btn-tickets btn-live">Mirar en vivo</button>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
+                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -231,8 +231,8 @@ include_once '../cp/app_includes/db_connect.php';
                             <div class="inline" style="margin-right: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <button class="btn-tickets">Comprar boletos</button>
-                                        <button class="btn-tickets btn-live">Mirar en vivo</button>
+                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
+                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -272,7 +272,8 @@ include_once '../cp/app_includes/db_connect.php';
                     </h3>
                     <h2>
                         <br /><br /><br />
-                        Hora de ponerse extremos
+                        Hora de ponerse extremo!<br>
+                        Vealo en Vivo aqui
                         <br />
 
                     </h2>
@@ -310,56 +311,77 @@ include_once '../cp/app_includes/db_connect.php';
         <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Próximas peleas</h2>
-                Míralas en vivo
+                Míralas en vivo<br>
+                Sabado, 9 de Octubre<br>
+                4PM - 10PM EST<br>
+                New York
                 <span></span>
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
                     <?php
                     $upcomingFights = array(
                         array(
-                            "title" => "Fight 1",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 1"
+                            "title" => "Pelea 1",
+                            "imgPath" => "../img/events/fight1.jpg",
+                            "description" => "Esta es la pelea 1",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/onedetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 2",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 2."
+                            "title" => "Pelea 2",
+                            "imgPath" => "../img/events/fight2.jpg",
+                            "description" => "Esta es la pelea 2",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/twodetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 3",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 3."
+                            "title" => "Pelea 3",
+                            "imgPath" => "../img/events/fight3.jpg",
+                            "description" => "Esta es la pelea 3",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/threedetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 4",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 4"
+                            "title" => "Pelea 4",
+                            "imgPath" => "../img/events/fight4.jpg",
+                            "description" => "Esta es la pelea 4",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/fourdetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 5",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 5"
+                            "title" => "Pelea 5",
+                            "imgPath" => "../img/events/fight5.jpg",
+                            "description" => "Esta es la pelea 5",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/fivedetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 6",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 6"
+                            "title" => "Pelea 6",
+                            "imgPath" => "../img/events/fight6.jpg",
+                            "description" => "Esta es la pelea 6",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/sixdetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 7",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 7"
+                            "title" => "Pelea 7",
+                            "imgPath" => "../img/events/fight7.jpg",
+                            "description" => "Esta es la pelea 7",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/sevendetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 8",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 8"
+                            "title" => "Pelea 8",
+                            "imgPath" => "../img/events/fight8.jpg",
+                            "description" => "Esta es la pelea 8",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/eightdetail.pdf"
                         ),
                         array(
-                            "title" => "Fight 9",
-                            "imgPath" => "../img/events/ev-tours.jpg",
-                            "description" => "Fight 9"
+                            "title" => "Pelea 9",
+                            "imgPath" => "../img/events/fight9.jpg",
+                            "description" => "Esta es la pelea 9",
+                            "subtitle" => "Relato de la cinta",
+                            "subtitle-link" => "../fight/ninedetail.pdf"
                         ),
                     );
                     
@@ -372,8 +394,18 @@ include_once '../cp/app_includes/db_connect.php';
                                 <div
                                     class="px-3 py-2 p-md-3 px-lg-4 py-lg-4 d-flex flex-row align-items-center reveal-subcontainer">
                                     <div class="reveal-content">
-                                        <br><span style="color: #55cbfc; font-weight: bold"><?php echo $fight['title'] ?></span></br>
-                                        <?php echo $fight['description'] ?>
+                                        <div style="color: #55cbfc; font-weight: bold">
+                                            <?php echo $fight['title'] ?>
+                                        </div>
+                                        <div style="margin-top: 10px;">
+                                            <?php echo $fight['description'] ?>
+                                        </div>
+
+                                        <div style="margin-top: 20px;">
+                                            <a href="<?php echo $fight['subtitle-link'] ?>">
+                                                <?php echo $fight['subtitle'] ?>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +419,7 @@ include_once '../cp/app_includes/db_connect.php';
     <!-- #tickets-on-sale -->
     <section class="sales-section">
         <h2>Boletos a la venta</h2>
-        <h5>Emocionantes combates por el campeonato en la ciudad de Nueva York</h5>
+        <h5>Emocionantes combates por el campeonato en Queens-Nueva York</h5>
 
         <a href="https://edition.cnn.com/">Obtén los tuyos aquí</a>
     </section>
@@ -472,6 +504,8 @@ include_once '../cp/app_includes/db_connect.php';
                     <p class="area_text">
                     Visit Digitally es un líder reconocido en OTT TV (Over-the-top TV), OVP (Online Video Platform), EdVP (Education Video Platform), y en el Mercado de EVP (Enterprise Video Platform).
                     <br/> <br/>
+                    Hemos hecho una alianza con Extreme Cage Fighting para mostrar peleas en vivo de Brazilian Jiu Jitsu, Mixed Martial Arts, Muay Thai y Lucha libre.
+                    <br/> <br/>
                     Nuestro equipo multicultural desarrolla programas y aplicaciones usando tecnologías de última generación. Nuestra concentración es crear experiencia únicas de usuarios mientras que le generamos un significante retorno de su inversión.
                     </p>
                 </div>
@@ -527,7 +561,7 @@ include_once '../cp/app_includes/db_connect.php';
                             <div class="inner-content">
                                 <h5>Carlos<br />
                                     Vassallo </h5>
-                                <span>COO - Cofundador</span>
+                                <span>COO - Fundador</span>
                             </div>
                         </div>
                         <!-- /.team-member -->
@@ -547,7 +581,7 @@ include_once '../cp/app_includes/db_connect.php';
                             <div class="inner-content">
                                 <h5>Amanda<br />
                                     Smith</h5>
-                                <span>COO - Cofundadora</span>
+                                <span>COO - Fundadora</span>
                             </div>
                         </div>
                         <!-- /.team-member -->
@@ -677,7 +711,7 @@ include_once '../cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="../images/logo_white.png" alt="Logo" />
                     <p>
-                        Copyright &copy; <?php echo date("Y"); ?> mma.VisitDigitally.com <br/>
+                        Copyright &copy; <?php echo date("Y"); ?> <br>mma.VisitDigitally.com <br/>extremecagefightingnyc.com<br>
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -685,7 +719,6 @@ include_once '../cp/app_includes/db_connect.php';
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>MMA</strong><br/>
-                                <a style="margin-right: 20px;" target="_blank" href="https://edition.cnn.com/">Tienda</a>
                                 <a href="../index.php">English</a>
                             </div>
                         </div>
@@ -705,7 +738,9 @@ include_once '../cp/app_includes/db_connect.php';
                             <div class="footer-div" style="margin-top: 15px;">
                                 <strong>Legal</strong> <br/>
                                 <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Política de privacidad</a> <br/>
-                                </div>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Términos</a> <br/>
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">GDPR</a> <br/>
+                            </div>
                         </div>
                     </div>
                 </div>

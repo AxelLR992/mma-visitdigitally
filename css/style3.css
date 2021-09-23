@@ -1192,6 +1192,14 @@ margin: 20px auto;
     margin-left: 10px;
 }
 
+.btn-tickets:hover {
+    color: white;
+}
+
+.btn-tickets:focus {
+    color: white;
+}
+
 .btn-live {
     background-color: red;
 }
