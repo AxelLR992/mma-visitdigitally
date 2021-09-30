@@ -1,0 +1,8 @@
+.vimeo-container {
+    height: 100%;
+}
+
+.vimeo-container iframe {
+    width: 100%;
+    height: 100%;
+}

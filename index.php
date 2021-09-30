@@ -217,10 +217,8 @@ include_once 'cp/app_includes/db_connect.php';
                             </div>
                             <div style="margin-top: 15px;">
                                 <span class="demo_button">
-                                    <a href="#contact">
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Buy tickets</a>
-                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Watch live</a>
-                                    </a>
+                                    <button id="eventbrite-widget-modal-trigger-170494834640" class="btn-tickets">Buy tickets</button>
+                                    <button class="btn-tickets btn-live">Watch live</button>
                                 </span>
                             </div>
                         </div>
@@ -230,10 +228,8 @@ include_once 'cp/app_includes/db_connect.php';
                         <div class="desktop-only">
                             <div class="inline" style="margin-right: 15px;">
                                 <span class="demo_button">
-                                    <a href="#contact">
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Buy tickets</a>
-                                        <a href="https://edition.cnn.com/" class="btn-tickets btn-live">Watch live</a>
-                                    </a>
+                                    <button id="eventbrite-widget-modal-trigger-170494834640" class="btn-tickets">Buy tickets</button>
+                                    <button href="live.php" class="btn-tickets btn-live">Watch live</button>
                                 </span>
                             </div>
                             <div class="inline" style="margin-right: 15px;">
@@ -302,7 +298,7 @@ include_once 'cp/app_includes/db_connect.php';
             </div>
         </div>
         <video loop muted autoplay class="tall" style="width: 100%; height: auto;">
-            <source src="video/mmaoctober9.mp4" type="video/mp4">
+            <source src="video/october9.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -890,6 +886,28 @@ include_once 'cp/app_includes/db_connect.php';
             subcontainer.attr('data-expanded', 'true');
         }
     });
+
+    const buttonsLive = document.getElementsByClassName("btn-live");
+    for (let button of buttonsLive) {
+        button.addEventListener("click", function(){
+            window.location.href = "live.php";
+        })
+    }
+    </script>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+
+        window.EBWidgets.createWidget({
+            widgetType: 'checkout',
+            eventId: '170494834640',
+            modal: true,
+            modalTriggerElementId: 'eventbrite-widget-modal-trigger-170494834640',
+            onOrderComplete: exampleCallback
+        });
     </script>
 </body>
 
