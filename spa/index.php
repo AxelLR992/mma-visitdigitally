@@ -218,8 +218,8 @@ include_once '../cp/app_includes/db_connect.php';
                             <div style="margin-top: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets btn-live">Mirar en vivo</a>
+                                        <a href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977" class="btn-tickets">Comprar boletos</a>
+                                        <a href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -231,8 +231,8 @@ include_once '../cp/app_includes/db_connect.php';
                             <div class="inline" style="margin-right: 15px;">
                                 <span class="demo_button">
                                     <a href="#contact">
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets">Comprar boletos</a>
-                                        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640" class="btn-tickets btn-live">Mirar en vivo</a>
+                                        <a href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977" class="btn-tickets">Comprar boletos</a>
+                                        <a href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977" class="btn-tickets btn-live">Mirar en vivo</a>
                                     </a>
                                 </span>
                             </div>
@@ -311,9 +311,10 @@ include_once '../cp/app_includes/db_connect.php';
         <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Próximas peleas</h2>
-                Míralas en vivo<br>
+                <b>Míralas en vivo</b><br>
                 Sabado, 9 de Octubre<br>
                 4PM - 10PM EST<br>
+                Garden City<br>
                 New York
                 <span></span>
             </div>
@@ -323,65 +324,65 @@ include_once '../cp/app_includes/db_connect.php';
                         array(
                             "title" => "Pelea 1",
                             "imgPath" => "../img/events/fight1.jpg",
-                            "description" => "Esta es la pelea 1",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/onedetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea1.pdf"
                         ),
                         array(
                             "title" => "Pelea 2",
                             "imgPath" => "../img/events/fight2.jpg",
-                            "description" => "Esta es la pelea 2",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/twodetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea2.pdf"
                         ),
                         array(
                             "title" => "Pelea 3",
                             "imgPath" => "../img/events/fight3.jpg",
-                            "description" => "Esta es la pelea 3",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/threedetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea3.pdf"
                         ),
                         array(
                             "title" => "Pelea 4",
                             "imgPath" => "../img/events/fight4.jpg",
-                            "description" => "Esta es la pelea 4",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/fourdetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea4.pdf"
                         ),
                         array(
                             "title" => "Pelea 5",
                             "imgPath" => "../img/events/fight5.jpg",
-                            "description" => "Esta es la pelea 5",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/fivedetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea5.pdf"
                         ),
                         array(
                             "title" => "Pelea 6",
                             "imgPath" => "../img/events/fight6.jpg",
-                            "description" => "Esta es la pelea 6",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/sixdetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea6.pdf"
                         ),
                         array(
                             "title" => "Pelea 7",
                             "imgPath" => "../img/events/fight7.jpg",
-                            "description" => "Esta es la pelea 7",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/sevendetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea7.pdf"
                         ),
                         array(
                             "title" => "Pelea 8",
                             "imgPath" => "../img/events/fight8.jpg",
-                            "description" => "Esta es la pelea 8",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/eightdetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea8.pdf"
                         ),
                         array(
                             "title" => "Pelea 9",
                             "imgPath" => "../img/events/fight9.jpg",
-                            "description" => "Esta es la pelea 9",
-                            "subtitle" => "Relato de la cinta",
-                            "subtitle-link" => "../fight/ninedetail.pdf"
+                            "description" => "Categoría MMA",
+                            "subtitle" => "Información de los Peleadores",
+                            "subtitle-link" => "../spa/pelea/pelea9.pdf"
                         ),
                     );
                     
@@ -421,7 +422,7 @@ include_once '../cp/app_includes/db_connect.php';
         <h2>Boletos a la venta</h2>
         <h5>Emocionantes combates por el campeonato en Queens-Nueva York</h5>
 
-        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640">Obtén los tuyos aquí</a>
+        <a href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977">Obtén los tuyos aquí</a>
     </section>
     <!-- /#tickets-on-sale -->
 

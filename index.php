@@ -302,7 +302,7 @@ include_once 'cp/app_includes/db_connect.php';
             </div>
         </div>
         <video loop muted autoplay class="tall" style="width: 100%; height: auto;">
-            <source src="video/october9.mp4" type="video/mp4">
+            <source src="video/mmaoctober9.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -311,9 +311,11 @@ include_once 'cp/app_includes/db_connect.php';
         <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
                 <h2>Upcoming fights</h2>
-                Watch them live<br>
+                <b>Watch them live</b><br>
                 Saturday, October 9th<br>
-                4PM - 10PM EST <br>New York
+                4PM - 10PM EST <br>
+                Garden City<br>
+                New York
                 <span></span>
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
@@ -322,63 +324,63 @@ include_once 'cp/app_includes/db_connect.php';
                         array(
                             "title" => "Fight 1",
                             "imgPath" => "img/events/fight1.jpg",
-                            "description" => "This is fight 1",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/onedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 2",
                             "imgPath" => "img/events/fight2.jpg",
-                            "description" => "This is fight 2",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/twodetail.pdf"
                         ),
                         array(
                             "title" => "Fight 3",
                             "imgPath" => "img/events/fight3.jpg",
-                            "description" => "This is fight 3",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/threedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 4",
                             "imgPath" => "img/events/fight4.jpg",
-                            "description" => "This is fight 4",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/fourdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 5",
                             "imgPath" => "img/events/fight5.jpg",
-                            "description" => "This is fight 5",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/fivedetail.pdf"
                         ),
                         array(
                             "title" => "Fight 6",
                             "imgPath" => "img/events/fight6.jpg",
-                            "description" => "This is fight 6",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/sixdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 7",
                             "imgPath" => "img/events/fight7.jpg",
-                            "description" => "This is fight 7",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/sevendetail.pdf"
                         ),
                         array(
                             "title" => "Fight 8",
                             "imgPath" => "img/events/fight8.jpg",
-                            "description" => "This is fight 8",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/eightdetail.pdf"
                         ),
                         array(
                             "title" => "Fight 9",
                             "imgPath" => "img/events/fight9.jpg",
-                            "description" => "This is fight 9",
+                            "description" => "MMA Category",
                             "subtitle" => "Tale of the tape",
                             "subtitle-link" => "fight/ninedetail.pdf"
                         ),
