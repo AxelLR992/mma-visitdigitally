@@ -711,7 +711,10 @@ include_once '../cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="../images/logo_white.png" alt="Logo" />
                     <p>
-                        Copyright &copy; <?php echo date("Y"); ?> <br>mma.VisitDigitally.com <br/>visitdigitally.com<br>extremecagefightingnyc.com<br>
+                        Copyright &copy; <?php echo date("Y"); ?> <br/>
+                        <a href="https://www.mma.visitdigitally.com/">mma.VisitDigitally.com</a><br/>
+                        <a href="https://www.visitdigitally.com/spa/index.php">visitdigitally.com</a><br/>
+                        <a href="https://www.extremecagefightingnyc.com/">extremecagefightingnyc.com</a>
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
