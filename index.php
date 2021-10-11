@@ -205,6 +205,7 @@ include_once 'cp/app_includes/db_connect.php';
                                 <div class="menu">
                                     <ul>
                                         <li><a href="#upcoming-fights">Upcoming fights</a></li>
+                                        <li><a href="#partnership">Partnership</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#about">Company</a></li>
                                     </ul>
@@ -244,6 +245,7 @@ include_once 'cp/app_includes/db_connect.php';
                                 <div class="menu">
                                     <ul>
                                         <li><a href="#upcoming-fights">Upcoming fights</a></li>
+                                        <li><a href="#partnership">Partnership</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#about">Company</a></li>
                                     </ul>
@@ -298,7 +300,7 @@ include_once 'cp/app_includes/db_connect.php';
             </div>
         </div>
         <video loop muted autoplay class="tall" style="width: 100%; height: auto;">
-            <source src="video/october9.mp4" type="video/mp4">
+            <source src="video/mmaoctober9.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -413,12 +415,25 @@ include_once 'cp/app_includes/db_connect.php';
     </section>
     <!-- /#upcoming-fights -->
 
+    <!-- Partnership -->
+    <div style="padding-top: 130px; padding-bottom: 50px;" id="partnership">
+        <section class="partnership event-type-section">
+            <div class="title-section text-center">
+                <h2>In partnership with</h2>
+                <span></span>
+            </div>
+            <img src="images/logo-ecf.png" alt="ECF" />
+            <h3>EXTREME CAGE FIGHTING NYC</h3>
+        </section>
+    </div>
+    <!-- /#Partnership -->
+
     <!-- #tickets-on-sale -->
     <section class="sales-section">
         <h2>Tickets on sale</h2>
         <h5>Thrilling championship bouts in Queens-New York</h5>
 
-        <a href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640">Get yours here</a>
+        <a target="_blank" href="https://www.eventbrite.com/e/extreme-cage-fighting-warriors-challenge-tickets-170494834640">Get yours here</a>
     </section>
     <!-- /#tickets-on-sale -->
 

@@ -176,12 +176,12 @@ include_once '../cp/app_includes/db_connect.php';
     <div id="home">
         <!-- start header-unit -->
         <div class="site-header">
-            <div class="main-header">
+            <div class="main-header" style="background-color: rgba(0,0,0,0.8);">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1 col-sm-1 col-xs-6">
                             <div class="logo">
-                                <a href="#" title="VisitDigitally.com">
+                                <a href="index.php" title="VisitDigitally.com">
                                     <img src="../images/logo_visitdigitally.png" style="margin-top: 10px" /></a>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ include_once '../cp/app_includes/db_connect.php';
                                 </div>
                             </div>
                             <div style="margin-top: 15px;">
-                                <a href="../index.php">
+                                <a href="../live.php">
                                     <img src="../banderas/eu.jpg" style="margin-top: -8px; border: 0" />
                                 </a>
                             </div>
@@ -235,7 +235,7 @@ include_once '../cp/app_includes/db_connect.php';
                                 </span>
                             </div>
                             <div class="inline" style="margin-right: 15px;">
-                                <a href="../index.php">
+                                <a href="../live.php">
                                     <img src="../banderas/eu.jpg" style="margin-top: -8px; border: 0" />
                                 </a>
                             </div>
@@ -261,49 +261,31 @@ include_once '../cp/app_includes/db_connect.php';
         </div>
     </div>
     <!-- end .header-unit -->
-    <div class="fullscreen-bg">
-        <div
-            style="top:0px; left:0px; background-color: rgba(0, 0, 0, 0.5); width: 100%; height: 100%; z-index: 10000;">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 video_blurb">
-                    <h3>
-                        <span id="swpText"></span>
-                    </h3>
-                    <h2>
-                        <br /><br /><br />
-                        ¡Hora de ponerse extremo!<br>
-                        Véalo en Vivo aquí
-                        <br />
 
-                    </h2>
-
-                    <script type="text/javascript">
-                    var im = document.getElementById("swpText");
-
-                    var accText = [""];
-                    var index = 0;
-
-                    function changeText() {
-                        im.textContent = accText[index];
-                        index++;
-                        if (index >= accText.length) {
-                            index = 0;
-                        }
-                    };
-                    </script>
-                    <script type="text/javascript">
-                    setInterval(changeText, 2000);
-                    </script>
-
-
-
+    <main class="event-type-section container" style="padding-top: 179px;">
+        <div class="row mt-5">
+            <div class="col-12 col-md-8">
+                <div class="vimeo-container">
+                    <iframe 
+                        src="https://player.vimeo.com/video/619194892?h=8019291a6d" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen
+                        style="height: 100%; min-height: 50vh;"
+                    ></iframe>
                 </div>
             </div>
+            <div class="col-12 col-md-4">
+                <iframe 
+                    src="https://vimeo.com/live-chat/619194892/" 
+                    width="100%" 
+                    height="100%" 
+                    frameborder="0"
+                    style="height: 100%; min-height: 50vh;"
+                ></iframe>
+            </div>
         </div>
-        <video loop muted autoplay class="tall" style="width: 100%; height: auto;">
-            <source src="../video/mmaoctober9.mp4" type="video/mp4">
-        </video>
-    </div>
+    </main>
 
     <!-- #upcoming-fights -->
     <section id="upcoming-fights" class="event-type-section" style="padding-top: 130px;">
@@ -428,15 +410,6 @@ include_once '../cp/app_includes/db_connect.php';
         </section>
     </div>
     <!-- /#Partnership -->
-
-    <!-- #tickets-on-sale -->
-    <section class="sales-section">
-        <h2>Boletos a la venta</h2>
-        <h5>Emocionantes combates por el campeonato en Queens-Nueva York</h5>
-
-        <a target="_blank" href="https://www.eventbrite.com/e/lucha-de-jaula-extrema-desafio-de-guerreros-tickets-181033133977">Obtén los tuyos aquí</a>
-    </section>
-    <!-- /#tickets-on-sale -->
 
     <div class="flexslider">
         <br><br><br>
@@ -901,7 +874,7 @@ include_once '../cp/app_includes/db_connect.php';
     const buttonsLive = document.getElementsByClassName("btn-live");
     for (let button of buttonsLive) {
         button.addEventListener("click", function(){
-            window.location.href = "live.php";
+            window.location.href = "../live.php";
         })
     }
     </script>
