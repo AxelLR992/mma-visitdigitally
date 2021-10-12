@@ -319,71 +319,8 @@ include_once '../cp/app_includes/db_connect.php';
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
                     <?php
-                    $upcomingFights = array(
-                        array(
-                            "title" => "Pelea 1",
-                            "imgPath" => "../img/events/fight1.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea1.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 2",
-                            "imgPath" => "../img/events/fight2.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea2.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 3",
-                            "imgPath" => "../img/events/fight3.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea3.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 4",
-                            "imgPath" => "../img/events/fight4.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea4.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 5",
-                            "imgPath" => "../img/events/fight5.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea5.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 6",
-                            "imgPath" => "../img/events/fight6.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea6.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 7",
-                            "imgPath" => "../img/events/fight7.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea7.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 8",
-                            "imgPath" => "../img/events/fight8.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea8.pdf"
-                        ),
-                        array(
-                            "title" => "Pelea 9",
-                            "imgPath" => "../img/events/fight9.jpg",
-                            "description" => "Categoría MMA",
-                            "subtitle" => "Información de los Peleadores",
-                            "subtitle-link" => "../spa/pelea/pelea9.pdf"
-                        ),
-                    );
+                    $json = file_get_contents('./fights.json');
+                    $upcomingFights = json_decode($json, true);
                     
                     foreach ($upcomingFights as $fight){ ?>
                         <div class="col-md-4 p-2 stagger-tween-item upcoming-fight">
@@ -402,7 +339,7 @@ include_once '../cp/app_includes/db_connect.php';
                                         </div>
 
                                         <div style="margin-top: 20px;">
-                                            <a href="<?php echo $fight['subtitle-link'] ?>">
+                                            <a href="<?php echo $fight['subtitleLink'] ?>">
                                                 <?php echo $fight['subtitle'] ?>
                                             </a>
                                         </div>

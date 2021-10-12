@@ -14,28 +14,22 @@ include_once 'cp/app_includes/db_connect.php';
 <head>
     <title>MMA Visit Digitally | Hello!</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="keywords"
-        content="virtual live tours, marketing, technology, advertising, AI, IOT, Blockchain, Cloud applications" />
+    <meta name="keywords" content="virtual live tours, marketing, technology, advertising, AI, IOT, Blockchain, Cloud applications" />
     <meta name="author" content="VisitDigitally Carlos Vassallo">
-    <meta name="description"
-        content="VisitDigitally provides REAL-TIME INTERACTIVE LIVE CAMPUS TOURS FOR UNIVERSITIES, PARENTS AND PROSPECTIVE STUDENTS using AI to IoT to Analytics  to Cloud-based Applications, we help our customers in ways that go well beyond conventional marketing tools ">
+    <meta name="description" content="VisitDigitally provides REAL-TIME INTERACTIVE LIVE CAMPUS TOURS FOR UNIVERSITIES, PARENTS AND PROSPECTIVE STUDENTS using AI to IoT to Analytics  to Cloud-based Applications, we help our customers in ways that go well beyond conventional marketing tools ">
     <meta property="og:title" content="VisitDigitally.com" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://www.visitdigitally.com" />
     <meta property="og:image" content="https://www.visitdigitally.com/images/slide1bg_1.jpg" />
-    <meta property="og:description"
-        content="We put technology at the core of content-driven, digital-forward marketing campaigns for leading educational institutions looking to engage with prospective and current students." />
+    <meta property="og:description" content="We put technology at the core of content-driven, digital-forward marketing campaigns for leading educational institutions looking to engage with prospective and current students." />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content=" VisitDigitally – A Digital, multicultural and Technology Marketing Agency " />
-    <meta name="twitter:description"
-        content="We put technology at the core of content-driven, digital-forward marketing campaigns for leading educational institutions looking to engage with prospective and current students." />
+    <meta name="twitter:description" content="We put technology at the core of content-driven, digital-forward marketing campaigns for leading educational institutions looking to engage with prospective and current students." />
     <meta charset="UTF-8">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
-        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS Bootstrap & Custom -->
@@ -50,20 +44,20 @@ include_once 'cp/app_includes/db_connect.php';
     <link rel="icon" type="image/png" href="https://www.visitdigitally.com/favicon.png" />
 
     <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-98297837-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-98297837-1', 'auto');
+        ga('send', 'pageview');
     </script>
 
     <!-- JavaScripts -->
@@ -76,91 +70,91 @@ include_once 'cp/app_includes/db_connect.php';
         </div>
     <![endif]-->
     <script>
-    /* Script written by Adam Khoury @ DevelopPHP.com */ /* Video Tutorial: http://www.youtube.com/watch?v=EraNFJiY0Eg */
-    function _(el) {
-        return document.getElementById(el);
-    }
+        /* Script written by Adam Khoury @ DevelopPHP.com */ /* Video Tutorial: http://www.youtube.com/watch?v=EraNFJiY0Eg */
+        function _(el) {
+            return document.getElementById(el);
+        }
 
-    function subscribeNews() {
-        var email = _("email-news").value; // alert(file.name+" | "+file.size+" | "+file.type);
-        var formdata = new FormData();
-        formdata.append("email-news", email);
-        var ajax = new XMLHttpRequest();
-        ajax.upload.addEventListener("progress", progressHandler, false);
-        ajax.addEventListener("load", completeHandler, false);
-        ajax.addEventListener("error", errorHandler, false);
-        ajax.addEventListener("abort", abortHandler, false);
-        ajax.open("POST", "scripts/proc_subsnews.php");
-        ajax.send(formdata);
-        document.getElementById('register_form').style.display = 'none';
-        document.getElementById('thanks_subs').style.display = 'block';
-    }
+        function subscribeNews() {
+            var email = _("email-news").value; // alert(file.name+" | "+file.size+" | "+file.type);
+            var formdata = new FormData();
+            formdata.append("email-news", email);
+            var ajax = new XMLHttpRequest();
+            ajax.upload.addEventListener("progress", progressHandler, false);
+            ajax.addEventListener("load", completeHandler, false);
+            ajax.addEventListener("error", errorHandler, false);
+            ajax.addEventListener("abort", abortHandler, false);
+            ajax.open("POST", "scripts/proc_subsnews.php");
+            ajax.send(formdata);
+            document.getElementById('register_form').style.display = 'none';
+            document.getElementById('thanks_subs').style.display = 'block';
+        }
 
-    function progressHandler(event) {
-        _("loaded_n_total").innerHTML = "Thank you for your registration";
-    }
+        function progressHandler(event) {
+            _("loaded_n_total").innerHTML = "Thank you for your registration";
+        }
 
-    function completeHandler(event) {
-        _("status").innerHTML = event.target.responseText;
-        //location.reload();
-    }
+        function completeHandler(event) {
+            _("status").innerHTML = event.target.responseText;
+            //location.reload();
+        }
 
-    function errorHandler(event) {
-        _("status").innerHTML = "Registration Failed";
-    }
+        function errorHandler(event) {
+            _("status").innerHTML = "Registration Failed";
+        }
 
-    function abortHandler(event) {
-        _("status").innerHTML = "Registration Aborted";
-    }
+        function abortHandler(event) {
+            _("status").innerHTML = "Registration Aborted";
+        }
     </script>
     <script>
-    $(document).ready(function(e) {
-        $("#contact_form").on('submit', (function(e) {
-            e.preventDefault();
-            $("#mail-status").hide();
-            $('#send-message').hide();
-            $('#loader-icon').show();
-            $.ajax({
-                url: "contact.php",
-                type: "POST",
-                dataType: 'json',
-                data: {
-                    "name": $('input[name="name_contact"]').val(),
-                    "email": $('input[name="email_contact"]').val(),
-                    "phone": $('input[name="subject_contact"]').val(),
-                    "content": $('textarea[name="message_contact"]').val(),
-                    "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
-                },
-                success: function(response) {
-                    $("#mail-status").show();
-                    $('#loader-icon').hide();
-                    if (response.type == "error") {
-                        $('#send-message').show();
-                        $("#mail-status").attr("class", "error");
-                    } else if (response.type == "message") {
-                        $('#send-message').hide();
-                        $("#mail-status").attr("class", "success");
-                    }
-                    $("#mail-status").html(response.text);
-                },
-                error: function() {}
-            });
-        }));
-    });
+        $(document).ready(function(e) {
+            $("#contact_form").on('submit', (function(e) {
+                e.preventDefault();
+                $("#mail-status").hide();
+                $('#send-message').hide();
+                $('#loader-icon').show();
+                $.ajax({
+                    url: "contact.php",
+                    type: "POST",
+                    dataType: 'json',
+                    data: {
+                        "name": $('input[name="name_contact"]').val(),
+                        "email": $('input[name="email_contact"]').val(),
+                        "phone": $('input[name="subject_contact"]').val(),
+                        "content": $('textarea[name="message_contact"]').val(),
+                        "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
+                    },
+                    success: function(response) {
+                        $("#mail-status").show();
+                        $('#loader-icon').hide();
+                        if (response.type == "error") {
+                            $('#send-message').show();
+                            $("#mail-status").attr("class", "error");
+                        } else if (response.type == "message") {
+                            $('#send-message').hide();
+                            $("#mail-status").attr("class", "success");
+                        }
+                        $("#mail-status").html(response.text);
+                    },
+                    error: function() {}
+                });
+            }));
+        });
     </script>
 </head>
 
 <body>
     <div id="fb-root"></div>
     <script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
     <!-- start preloader -->
     <!-- <div class="preloader">
@@ -200,8 +194,7 @@ include_once 'cp/app_includes/db_connect.php';
                         <!-- Mobile only menu -->
                         <div class="mobile-only">
                             <div>
-                                <a href="#"
-                                    class="toggle-menu fa fa-bars">
+                                <a href="#" class="toggle-menu fa fa-bars">
                                 </a>
                                 <div class="menu">
                                     <ul>
@@ -240,8 +233,7 @@ include_once 'cp/app_includes/db_connect.php';
                                 </a>
                             </div>
                             <div class="inline">
-                                <a href="#"
-                                    class="toggle-menu fa fa-bars">
+                                <a href="#" class="toggle-menu fa fa-bars">
                                 </a>
                                 <div class="menu">
                                     <ul>
@@ -262,27 +254,15 @@ include_once 'cp/app_includes/db_connect.php';
     </div>
     <!-- end .header-unit -->
 
-    <main class="event-type-section container" style="padding-top: 179px;">
+    <main class="event-type-section container" style="padding-top: 200px;">
         <div class="row mt-5">
             <div class="col-12 col-md-8">
                 <div class="vimeo-container">
-                    <iframe 
-                        src="https://player.vimeo.com/video/619194892?h=8019291a6d" 
-                        frameborder="0" 
-                        allow="autoplay; fullscreen; picture-in-picture" 
-                        allowfullscreen
-                        style="height: 100%; min-height: 50vh;"
-                    ></iframe>
+                    <iframe src="https://player.vimeo.com/video/619194892?h=8019291a6d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="height: 100%; min-height: 50vh;"></iframe>
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <iframe 
-                    src="https://vimeo.com/live-chat/619194892/" 
-                    width="100%" 
-                    height="100%" 
-                    frameborder="0"
-                    style="height: 100%; min-height: 50vh;"
-                ></iframe>
+                <iframe src="https://vimeo.com/live-chat/619194892/" width="100%" height="100%" frameborder="0" style="height: 100%; min-height: 50vh;"></iframe>
             </div>
         </div>
     </main>
@@ -300,99 +280,34 @@ include_once 'cp/app_includes/db_connect.php';
                 <span></span>
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
-                    <?php
-                    $upcomingFights = array(
-                        array(
-                            "title" => "Fight 1",
-                            "imgPath" => "img/events/fight1.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/onedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 2",
-                            "imgPath" => "img/events/fight2.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/twodetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 3",
-                            "imgPath" => "img/events/fight3.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/threedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 4",
-                            "imgPath" => "img/events/fight4.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/fourdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 5",
-                            "imgPath" => "img/events/fight5.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/fivedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 6",
-                            "imgPath" => "img/events/fight6.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/sixdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 7",
-                            "imgPath" => "img/events/fight7.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/sevendetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 8",
-                            "imgPath" => "img/events/fight8.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/eightdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 9",
-                            "imgPath" => "img/events/fight9.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/ninedetail.pdf"
-                        ),
-                    );
-                    
-                    foreach ($upcomingFights as $fight){ ?>
-                        <div class="col-md-4 p-2 stagger-tween-item upcoming-fight">
-                            <div class="reveal-container">
-                                <img class="img-responsive" src="<?php echo $fight['imgPath'] ?>" alt="">
-                                <h5 class="text-white text-uppercase text-shadow p-3 px-lg-4"
-                                    style="position : absolute; bottom : 0px;"><?php echo $fight['title'] ?></h5>
-                                <div
-                                    class="px-3 py-2 p-md-3 px-lg-4 py-lg-4 d-flex flex-row align-items-center reveal-subcontainer">
-                                    <div class="reveal-content">
-                                        <div style="color: #55cbfc; font-weight: bold">
-                                            <?php echo $fight['title'] ?>
-                                        </div>
-                                        <div style="margin-top: 10px;">
-                                            <?php echo $fight['description'] ?>
-                                        </div>
+                <?php
+                $json = file_get_contents('./fights.json');
+                $upcomingFights = json_decode($json, true);
 
-                                        <div style="margin-top: 20px;">
-                                            <a href="<?php echo $fight['subtitle-link'] ?>">
-                                                <?php echo $fight['subtitle'] ?>
-                                            </a>
-                                        </div>
+                foreach ($upcomingFights as $fight) { ?>
+                    <div class="col-md-4 p-2 stagger-tween-item upcoming-fight">
+                        <div class="reveal-container">
+                            <img class="img-responsive" src="<?php echo $fight['imgPath'] ?>" alt="">
+                            <h5 class="text-white text-uppercase text-shadow p-3 px-lg-4" style="position : absolute; bottom : 0px;"><?php echo $fight['title'] ?></h5>
+                            <div class="px-3 py-2 p-md-3 px-lg-4 py-lg-4 d-flex flex-row align-items-center reveal-subcontainer">
+                                <div class="reveal-content">
+                                    <div style="color: #55cbfc; font-weight: bold">
+                                        <?php echo $fight['title'] ?>
+                                    </div>
+                                    <div style="margin-top: 10px;">
+                                        <?php echo $fight['description'] ?>
+                                    </div>
+
+                                    <div style="margin-top: 20px;">
+                                        <a href="<?php echo $fight['subtitleLink'] ?>">
+                                            <?php echo $fight['subtitle'] ?>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    <?php } ?>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </section>
@@ -455,17 +370,14 @@ include_once 'cp/app_includes/db_connect.php';
                     <div class="col-md-5 col-sm-6">
                         <h4 class="widget-title">Find Us</h4>
                         <div class="map-holder">
-                            <iframe id="mapiframe"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8230886969245!2d-73.99093488475901!3d40.74391814359955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a679220bd3%3A0xa32c6d3673173c4c!2s1140%20Broadway%206th%20Floor%2C%20New%20York%2C%20NY%2010001%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1584568249280!5m2!1ses!2sar"
-                                frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe id="mapiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8230886969245!2d-73.99093488475901!3d40.74391814359955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a679220bd3%3A0xa32c6d3673173c4c!2s1140%20Broadway%206th%20Floor%2C%20New%20York%2C%20NY%2010001%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1584568249280!5m2!1ses!2sar" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <!-- /.map-holder -->
                         <div class="contact-info">
                             <span><i class="fa fa-home"></i>1140 Broadway 6th Floor, New York, NY 10001</span>
                             <span><i class="fa fa-phone"></i>(212) 518 7543</span>
                             <span><i class="fa fa-envelope"></i>info@visitdigitally.com</span>
-                            <span><i class="fa fa-whatsapp" style="color: #24cc63"></i> <a
-                                    href="https://wa.me/12125187543" target="_blank">Chat now</a></span>
+                            <span><i class="fa fa-whatsapp" style="color: #24cc63"></i> <a href="https://wa.me/12125187543" target="_blank">Chat now</a></span>
                         </div>
                     </div>
                 </div>
@@ -493,8 +405,8 @@ include_once 'cp/app_includes/db_connect.php';
                         (Online Video Platform), EdVP (Education Video Platform), and EVP (Enterprise Video Platform) markets.
                         <br />
                         <br />
-                         In Partnership with Extreme Cage Fighting, we streaming live Brazilian Jiu Jitsu, Mixed Martial Arts, Muay Thai and Wrestling.
-                         <br />
+                        In Partnership with Extreme Cage Fighting, we streaming live Brazilian Jiu Jitsu, Mixed Martial Arts, Muay Thai and Wrestling.
+                        <br />
                         <br />
                         Our multicultural team develops programs using state of the art technology. We focus on creating an unique user experience using the latest streaming technology.
 
@@ -643,7 +555,7 @@ include_once 'cp/app_includes/db_connect.php';
                                 <div class="overlay">
                                     <ul class="social">
                                         <li><a href="https://www.linkedin.com/in/martin-isaak-683764182" class="fa fa-linkedin" target="_blank"></a></li>
-                                        
+
                                     </ul>
                                 </div>
                                 <!-- /.overlay -->
@@ -673,8 +585,7 @@ include_once 'cp/app_includes/db_connect.php';
         <div class="modal-dialog" role="document" style="width: 50%;">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: #9f9f9f">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
-                            class="fa fa-times-circle"></i></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times-circle"></i></button>
                     <h4 class="modal-title" id="ModalLogin" style="color: #ffffff; padding-left: 8px">PRIVACY POLICY
                     </h4>
                 </div>
@@ -702,9 +613,9 @@ include_once 'cp/app_includes/db_connect.php';
                 <div class="col-12 col-md-6">
                     <img src="images/logo_white.png" alt="Logo" />
                     <p>
-                    Copyright &copy; <?php echo date("Y"); ?> <br/>
-                        <a href="https://www.mma.visitdigitally.com/">mma.VisitDigitally.com</a><br/>
-                        <a href="http://visitdigitally.com/">visitdigitally.com</a><br/>
+                        Copyright &copy; <?php echo date("Y"); ?> <br />
+                        <a href="https://www.mma.visitdigitally.com/">mma.VisitDigitally.com</a><br />
+                        <a href="http://visitdigitally.com/">visitdigitally.com</a><br />
                         <a href="https://www.extremecagefightingnyc.com/">extremecagefightingnyc.com</a>
                     </p>
                 </div>
@@ -712,29 +623,29 @@ include_once 'cp/app_includes/db_connect.php';
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
-                                <strong>Extreme Cage Fighting</strong><br/>
+                                <strong>Extreme Cage Fighting</strong><br />
                                 <a href="spa/index.php">Español</a>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
-                                <strong>Social Media</strong><br/>
-                                <a target="_blank" href="https://www.facebook.com/ECFMMAGYM/">Facebook</a> <br/>
-                                <a target="_blank" href="https://www.instagram.com/p/CTpL4oGL1e9/">Instagram</a> <br/>
+                                <strong>Social Media</strong><br />
+                                <a target="_blank" href="https://www.facebook.com/ECFMMAGYM/">Facebook</a> <br />
+                                <a target="_blank" href="https://www.instagram.com/p/CTpL4oGL1e9/">Instagram</a> <br />
                                 <a target="_blank" href="https://www.youtube.com/channel/UCQvvzEX51uHeJ3t37Olr9xw">YouTube</a>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
-                                <strong>Help</strong><br/>
+                                <strong>Help</strong><br />
                                 <a target="_blank" href="https://edition.cnn.com/">FAQ</a>
                             </div>
                             <div class="footer-div" style="margin-top: 15px;">
-                                <strong>Legal</strong> <br/>
-                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Privacy Policy</a> <br/>
-                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Terms</a> <br/>
-                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">GDPR</a> <br/>
-                                </div>
+                                <strong>Legal</strong> <br />
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Privacy Policy</a> <br />
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">Terms</a> <br />
+                                <a data-toggle="modal" data-target="#modal_login" style="cursor: pointer;">GDPR</a> <br />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -751,137 +662,137 @@ include_once 'cp/app_includes/db_connect.php';
     <script src="js/ScrollMagic.js"></script>
     <script src="js/animation.gsap.js"></script>
     <script type="text/javascript">
-    $('.popup-ajax').magnificPopup({
-        type: 'ajax'
-    });
+        $('.popup-ajax').magnificPopup({
+            type: 'ajax'
+        });
     </script>
     <script>
-    var controller = new ScrollMagic.Controller({
-        vertical: true
-    });
-
-    $("#nav-logo").each(function() {
-        var tween = TweenMax.to(this, 1.0, {
-            opacity: 1,
-            ease: Power2.easeOut
+        var controller = new ScrollMagic.Controller({
+            vertical: true
         });
 
-        var scene1 = new ScrollMagic.Scene({
-                triggerElement: "#services",
-                offset: 0,
-                reverse: true
-            })
-            .setTween(tween)
-            .addTo(controller);
-    });
-
-    // Single item fade in and slide up...
-
-    $(".single-tween-item").each(function() {
-        var tween = TweenMax.from(this, 1.0, {
-            y: 40,
-            autoAlpha: 0,
-            delay: 0,
-            ease: Power2.easeOut
-        }, .1);
-
-        var scene1 = new ScrollMagic.Scene({
-                triggerElement: this,
-                offset: 0,
-                reverse: true
-            })
-            .setTween(tween)
-            .addTo(controller);
-    });
-
-    $(".content-tween").each(function() {
-
-        var contentTweenTL = new TimelineMax({
-            repeat: 0,
-        });
-
-        var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), .6, {
-                x: -40,
-                autoAlpha: 0,
-                delay: 0,
+        $("#nav-logo").each(function() {
+            var tween = TweenMax.to(this, 1.0, {
+                opacity: 1,
                 ease: Power2.easeOut
-            }, .1)
-            .from($(this).find(".content-tween-right"), .6, {
+            });
+
+            var scene1 = new ScrollMagic.Scene({
+                    triggerElement: "#services",
+                    offset: 0,
+                    reverse: true
+                })
+                .setTween(tween)
+                .addTo(controller);
+        });
+
+        // Single item fade in and slide up...
+
+        $(".single-tween-item").each(function() {
+            var tween = TweenMax.from(this, 1.0, {
                 y: 40,
                 autoAlpha: 0,
                 delay: 0,
                 ease: Power2.easeOut
             }, .1);
 
-        var scene3 = new ScrollMagic.Scene({
-                triggerElement: this,
-                offset: -100,
-                reverse: true,
-                duration: $(window).height() / 2
+            var scene1 = new ScrollMagic.Scene({
+                    triggerElement: this,
+                    offset: 0,
+                    reverse: true
+                })
+                .setTween(tween)
+                .addTo(controller);
+        });
+
+        $(".content-tween").each(function() {
+
+            var contentTweenTL = new TimelineMax({
+                repeat: 0,
+            });
+
+            var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), .6, {
+                    x: -40,
+                    autoAlpha: 0,
+                    delay: 0,
+                    ease: Power2.easeOut
+                }, .1)
+                .from($(this).find(".content-tween-right"), .6, {
+                    y: 40,
+                    autoAlpha: 0,
+                    delay: 0,
+                    ease: Power2.easeOut
+                }, .1);
+
+            var scene3 = new ScrollMagic.Scene({
+                    triggerElement: this,
+                    offset: -100,
+                    reverse: true,
+                    duration: $(window).height() / 2
+                })
+                .setTween(contentTween)
+                .addTo(controller)
+            //.addIndicators()
+            ;
+        });
+
+        // Fade in and slide up, cascade through out elements
+
+        $(".stagger-tween").each(function() {
+
+            var stagger = TweenMax.staggerFrom($(this).find(".stagger-tween-item"), 1, {
+                    y: 40,
+                    autoAlpha: 0,
+                    delay: 0,
+                    ease: Power2.easeOut
+                },
+                0.3);
+
+            var scene2 = new ScrollMagic.Scene({
+                    triggerElement: this,
+                    offset: -100,
+                    reverse: false
+                })
+                .setTween(stagger)
+                .addTo(controller)
+            // .addIndicators()
+            ;
+        });
+
+        $('.reveal-container').click(function(e) {
+            var timeline = new TimelineMax();
+            var container = $(this);
+            var subcontainer = container.find('.reveal-subcontainer');
+            var content = subcontainer.find('.reveal-content')
+
+            if (subcontainer.attr('data-expanded') == 'true') {
+                // Hide
+                timeline
+                    .to(subcontainer, 1.00, {
+                        opacity: 0.00,
+                        ease: 'Power1.easeOut'
+                    });
+
+                subcontainer.attr('data-expanded', 'false');
+
+            } else {
+                // Show
+                timeline
+                    .to(subcontainer, 1.00, {
+                        opacity: 1.00,
+                        ease: 'Power1.easeOut'
+                    });
+
+                subcontainer.attr('data-expanded', 'true');
+            }
+        });
+
+        const buttonsLive = document.getElementsByClassName("btn-live");
+        for (let button of buttonsLive) {
+            button.addEventListener("click", function() {
+                window.location.href = "live.php";
             })
-            .setTween(contentTween)
-            .addTo(controller)
-        //.addIndicators()
-        ;
-    });
-
-    // Fade in and slide up, cascade through out elements
-
-    $(".stagger-tween").each(function() {
-
-        var stagger = TweenMax.staggerFrom($(this).find(".stagger-tween-item"), 1, {
-                y: 40,
-                autoAlpha: 0,
-                delay: 0,
-                ease: Power2.easeOut
-            },
-            0.3);
-
-        var scene2 = new ScrollMagic.Scene({
-                triggerElement: this,
-                offset: -100,
-                reverse: false
-            })
-            .setTween(stagger)
-            .addTo(controller)
-        // .addIndicators()
-        ;
-    });
-
-    $('.reveal-container').click(function(e) {
-        var timeline = new TimelineMax();
-        var container = $(this);
-        var subcontainer = container.find('.reveal-subcontainer');
-        var content = subcontainer.find('.reveal-content')
-
-        if (subcontainer.attr('data-expanded') == 'true') {
-            // Hide
-            timeline
-                .to(subcontainer, 1.00, {
-                    opacity: 0.00,
-                    ease: 'Power1.easeOut'
-                });
-
-            subcontainer.attr('data-expanded', 'false');
-
-        } else {
-            // Show
-            timeline
-                .to(subcontainer, 1.00, {
-                    opacity: 1.00,
-                    ease: 'Power1.easeOut'
-                });
-
-            subcontainer.attr('data-expanded', 'true');
         }
-    });
-
-    const buttonsLive = document.getElementsByClassName("btn-live");
-    for (let button of buttonsLive) {
-        button.addEventListener("click", function(){
-            window.location.href = "live.php";
-        })
-    }
     </script>
     <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 

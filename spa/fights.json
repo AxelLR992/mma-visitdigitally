@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Pelea 1",
+    "imgPath": "/img/events/fight1.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea1.pdf"
+  },
+  {
+    "title": "Pelea 2",
+    "imgPath": "/img/events/fight2.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea2.pdf"
+  },
+  {
+    "title": "Pelea 3",
+    "imgPath": "/img/events/fight3.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea3.pdf"
+  },
+  {
+    "title": "Pelea 4",
+    "imgPath": "/img/events/fight4.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea4.pdf"
+  },
+  {
+    "title": "Pelea 5",
+    "imgPath": "/img/events/fight5.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea5.pdf"
+  },
+  {
+    "title": "Pelea 6",
+    "imgPath": "/img/events/fight6.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea6.pdf"
+  },
+  {
+    "title": "Pelea 7",
+    "imgPath": "/img/events/fight7.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea7.pdf"
+  },
+  {
+    "title": "Pelea 8",
+    "imgPath": "/img/events/fight8.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea8.pdf"
+  },
+  {
+    "title": "Pelea 9",
+    "imgPath": "/img/events/fight9.jpg",
+    "description": "Categoría MMA",
+    "subtitle": "Información de los Peleadores",
+    "subtitleLink": "/spa/pelea/pelea9.pdf"
+  }
+]

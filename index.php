@@ -318,71 +318,8 @@ include_once 'cp/app_includes/db_connect.php';
             </div>
             <div class="row justify-content-center no-gutters stagger-tween" style="margin: 10px;">
                     <?php
-                    $upcomingFights = array(
-                        array(
-                            "title" => "Fight 1",
-                            "imgPath" => "img/events/fight1.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/onedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 2",
-                            "imgPath" => "img/events/fight2.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/twodetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 3",
-                            "imgPath" => "img/events/fight3.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/threedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 4",
-                            "imgPath" => "img/events/fight4.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/fourdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 5",
-                            "imgPath" => "img/events/fight5.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/fivedetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 6",
-                            "imgPath" => "img/events/fight6.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/sixdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 7",
-                            "imgPath" => "img/events/fight7.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/sevendetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 8",
-                            "imgPath" => "img/events/fight8.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/eightdetail.pdf"
-                        ),
-                        array(
-                            "title" => "Fight 9",
-                            "imgPath" => "img/events/fight9.jpg",
-                            "description" => "MMA Category",
-                            "subtitle" => "Tale of the tape",
-                            "subtitle-link" => "fight/ninedetail.pdf"
-                        ),
-                    );
+                    $json = file_get_contents('./fights.json');
+                    $upcomingFights = json_decode($json, true);
                     
                     foreach ($upcomingFights as $fight){ ?>
                         <div class="col-md-4 p-2 stagger-tween-item upcoming-fight">
@@ -401,7 +338,7 @@ include_once 'cp/app_includes/db_connect.php';
                                         </div>
 
                                         <div style="margin-top: 20px;">
-                                            <a href="<?php echo $fight['subtitle-link'] ?>">
+                                            <a href="<?php echo $fight['subtitleLink'] ?>">
                                                 <?php echo $fight['subtitle'] ?>
                                             </a>
                                         </div>

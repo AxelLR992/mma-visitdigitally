@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Fight 1",
+    "imgPath": "/img/events/fight1.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/onedetail.pdf"
+  },
+  {
+    "title": "Fight 2",
+    "imgPath": "/img/events/fight2.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/twodetail.pdf"
+  },
+  {
+    "title": "Fight 3",
+    "imgPath": "/img/events/fight3.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/threedetail.pdf"
+  },
+  {
+    "title": "Fight 4",
+    "imgPath": "/img/events/fight4.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/fourdetail.pdf"
+  },
+  {
+    "title": "Fight 5",
+    "imgPath": "/img/events/fight5.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/fivedetail.pdf"
+  },
+  {
+    "title": "Fight 6",
+    "imgPath": "/img/events/fight6.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/sixdetail.pdf"
+  },
+  {
+    "title": "Fight 7",
+    "imgPath": "/img/events/fight7.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/sevendetail.pdf"
+  },
+  {
+    "title": "Fight 8",
+    "imgPath": "/img/events/fight8.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/eightdetail.pdf"
+  },
+  {
+    "title": "Fight 9",
+    "imgPath": "/img/events/fight9.jpg",
+    "description": "MMA Category",
+    "subtitle": "Tale of the tape",
+    "subtitleLink": "/fight/ninedetail.pdf"
+  }
+]
