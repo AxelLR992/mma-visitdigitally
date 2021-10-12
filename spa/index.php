@@ -309,9 +309,10 @@ include_once '../cp/app_includes/db_connect.php';
     <section id="upcoming-fights" class="event-type-section" style="padding-top: 130px;">
         <div class="container-fluid">
             <div class="title-section text-center" style="margin-bottom: 40px;">
-                <h2>Próximas peleas</h2>
+                <h2>Próximas peleas<br><br>
+                SáBADO<br><br>DICIEMBRE 4, 2021</h2>
                 <b>Míralas en vivo</b><br>
-                Sabado, 9 de Octubre<br>
+               
                 4PM - 10PM EST<br>
                 Garden City<br>
                 New York
@@ -686,7 +687,7 @@ include_once '../cp/app_includes/db_connect.php';
                         <div class="col-12 col-md-4">
                             <div class="footer-div">
                                 <strong>Ayuda</strong><br/>
-                                <a target="_blank" href="https://edition.cnn.com/">FAQ</a>
+                                <a target="_blank" href="https://mma.visitdigitally.com/spa/PF.pdf">Preguntas Frecuentes</a>
                             </div>
                             <div class="footer-div" style="margin-top: 15px;">
                                 <strong>Legal</strong> <br/>

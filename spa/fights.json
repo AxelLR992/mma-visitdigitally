@@ -1,65 +1,65 @@
 [
   {
-    "title": "Pelea 1",
+    "title": "Pelea 1 >> Click",
     "imgPath": "/img/events/fight1.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea1.pdf"
+    "subtitleLink": "/spa/pelea/fight1.pdf"
   },
   {
-    "title": "Pelea 2",
+    "title": "Pelea 2 >> Click",
     "imgPath": "/img/events/fight2.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea2.pdf"
+    "subtitleLink": "/spa/pelea/fight2.pdf"
   },
   {
-    "title": "Pelea 3",
+    "title": "Pelea 3 >> Click",
     "imgPath": "/img/events/fight3.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea3.pdf"
+    "subtitleLink": "/spa/pelea/fight3.pdf"
   },
   {
-    "title": "Pelea 4",
+    "title": "Pelea 4 >> Click",
     "imgPath": "/img/events/fight4.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea4.pdf"
+    "subtitleLink": "/spa/pelea/fight4.pdf"
   },
   {
-    "title": "Pelea 5",
+    "title": "Pelea 5 >> Click",
     "imgPath": "/img/events/fight5.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea5.pdf"
+    "subtitleLink": "/spa/pelea/fight5.pdf"
   },
   {
-    "title": "Pelea 6",
+    "title": "Pelea 6 >> Click",
     "imgPath": "/img/events/fight6.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea6.pdf"
+    "subtitleLink": "/spa/pelea/fight6.pdf"
   },
   {
-    "title": "Pelea 7",
+    "title": "Pelea 7 >> Click",
     "imgPath": "/img/events/fight7.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea7.pdf"
+    "subtitleLink": "/spa/pelea/fight7.pdf"
   },
   {
-    "title": "Pelea 8",
+    "title": "Pelea 8 >> Click",
     "imgPath": "/img/events/fight8.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea8.pdf"
+    "subtitleLink": "/spa/pelea/fight8.pdf"
   },
   {
-    "title": "Pelea 9",
+    "title": "Pelea 9 >> Click",
     "imgPath": "/img/events/fight9.jpg",
     "description": "Categoría MMA",
     "subtitle": "Información de los Peleadores",
-    "subtitleLink": "/spa/pelea/pelea9.pdf"
+    "subtitleLink": "/spa/pelea/fight9.pdf"
   }
 ]
